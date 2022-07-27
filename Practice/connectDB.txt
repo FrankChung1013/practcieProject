@@ -1,0 +1,1 @@
+Scaffold-DbContext -Verbose "Data Source=.;Initial Catalog=Practice;User ID=sa;Password=skygate00;Integrated Security=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models  -DataAnnotations -NoOnConfiguring -Force -Project Practice
