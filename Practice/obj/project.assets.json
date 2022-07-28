@@ -2211,11 +2211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VS\\practice\\Practice\\Practice\\Practice.csproj",
+      "projectUniqueName": "D:\\VS\\practice\\Practice\\practice20220727\\Practice\\Practice.csproj",
       "projectName": "Practice",
-      "projectPath": "D:\\VS\\practice\\Practice\\Practice\\Practice.csproj",
+      "projectPath": "D:\\VS\\practice\\Practice\\practice20220727\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\d1014\\.nuget\\packages\\",
-      "outputPath": "D:\\VS\\practice\\Practice\\Practice\\obj\\",
+      "outputPath": "D:\\VS\\practice\\Practice\\practice20220727\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
