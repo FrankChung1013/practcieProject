@@ -5,7 +5,9 @@ using Practice.Service;
 using AutoMapper;
 using Practice.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.OpenApi.Models;
+using Practice.Extensions;
 using Practice.Response;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,8 +16,9 @@ var connectionString = builder.Configuration.GetConnectionString("DbConnetionStr
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddScoped<IBlogRepository, BlogRepository>();
-builder.Services.AddScoped<IBlogService, BlogService>();
+builder.Services.AddFeatureServiceCollection();
+// builder.Services.AddScoped<IBlogRepository, BlogRepository>();
+// builder.Services.AddScoped<IBlogService, BlogService>();
 builder.Services.AddDbContext<PracticeContext>(options =>
 {
     options.UseSqlServer(connectionString, sqlServerOptionsAction: sqlOptions =>
