@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9HHhzu2/Wt1t2AoVpvCktS4YzNoFb1GOTFtrMASIQbvnYp9+KnV0mwJlXmq1JoKpRBTxdLfaHImZTnuoxffN+g==",
+  "dgSpecHash": "Ty2+/pZGp79y6a46PG7bcKsuxiqerl0orHR4qUVb+5jN5HBdqFpMHfR4fLkAHz24e80HuD/Eqq3+GQ11awlNSg==",
   "success": true,
-  "projectFilePath": "D:\\VS\\practice\\Practice\\practice20220727\\Practice\\Practice.csproj",
+  "projectFilePath": "D:\\VS\\practice\\Practice\\practice20220727_docker\\practice20220727\\Practice\\Practice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\d1014\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\d1014\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
