@@ -193,3 +193,10 @@ D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\obj\De
 D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\obj\Debug\net6.0\Practice.xml
 D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\obj\Debug\net6.0\Practice.pdb
 D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\obj\Debug\net6.0\Practice.genruntimeconfig.cache
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\nunit.framework.dll
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\nunit.engine.dll
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\nunit.engine.api.dll
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\nunit.engine.core.dll
+D:\VS\practice\Practice\practice20220727_docker\practice20220727\Practice\bin\Debug\net6.0\testcentric.engine.metadata.dll

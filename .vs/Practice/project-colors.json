@@ -10,7 +10,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "其他檔案",
       "ColorIndex": -1
+    },
+    "12ef128a-63de-4515-993b-f45dd4581543": {
+      "ProjectGuid": "12ef128a-63de-4515-993b-f45dd4581543",
+      "DisplayName": "PracticeTests",
+      "ColorIndex": 1
+    },
+    "111c0599-7919-4ad4-a534-8d2b7cd4ca83": {
+      "ProjectGuid": "111c0599-7919-4ad4-a534-8d2b7cd4ca83",
+      "DisplayName": "PracticeTest",
+      "ColorIndex": 2
+    },
+    "0bfba70d-e906-4aaf-b82f-d8dca095c0dc": {
+      "ProjectGuid": "0bfba70d-e906-4aaf-b82f-d8dca095c0dc",
+      "DisplayName": "PracticeTests1",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

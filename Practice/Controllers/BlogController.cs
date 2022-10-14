@@ -12,10 +12,20 @@ namespace Practice.Controllers
         private readonly IBlogService _blogService;
         private readonly PracticeContext _dbContext;
 
-        public BlogController(IBlogService blogService, PracticeContext dbContext)
+        //test jenkins
+        public BlogController(IBlogService blogService, PracticeContext dbContext, string xxx)
         {
             this._blogService = blogService;
             _dbContext = dbContext;
+        }
+
+        public BlogController()
+        {
+        }
+
+        public int Add(int firstNumber, int secondNumber)
+        {
+            return firstNumber + secondNumber;
         }
 
         [HttpPost("GetBlogs")]
@@ -25,7 +35,12 @@ namespace Practice.Controllers
 
             return SuccessResult(result);
         }
-        
+
+        public int Minus(int firstNumber, int secondNumber)
+        {
+            throw new NotImplementedException();
+        }
+
         [HttpPost("GetBlogWith")]
 
         public async Task<ResponseResult<DataPageResp<BlogResponse>>> GetBlogWith(BlogSearchRequest req)

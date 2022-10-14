@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Practice</name>
+    </assembly>
+    <members>
+        <member name="M:Practice.Common.BaseRepository`1.GetAll">
+            <summary>
+            查詢全部資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.GetMany(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            查詢部分資料
+            </summary>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            查詢單筆資料
+            </summary>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Insert(`0)">
+            <summary>
+            新增(單筆)
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Insert(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            新增(多筆)
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Update(`0)">
+            <summary>
+            更新(單筆)
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Update(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            更新(多筆)
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Delete(`0)">
+            <summary>
+            刪除(單筆)
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.BaseRepository`1.Delete(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            刪除(多筆)
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.Extensions.DataPageExtension.PaginateAsync``1(System.Linq.IQueryable{``0},System.Int32,System.Int32,System.Collections.Generic.IEnumerable{Practice.Common.Extensions.SortModel})">
+            <summary>
+            查詢分頁
+            </summary>
+            <param name="query"></param>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="sortModels"></param>
+            <typeparam name="TModel"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Practice.Common.Extensions.DataPageExtension.OrderBy``1(System.Linq.IQueryable{``0},System.Collections.Generic.IEnumerable{Practice.Common.Extensions.SortModel})">
+            <summary>
+            排序用
+            </summary>
+            <param name="source"></param>
+            <param name="sortModels"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:Practice.Common.Extensions.PagesModel`1.CurrentPage">
+            <summary>
+            目前在哪一頁
+            </summary>
+        </member>
+        <member name="P:Practice.Common.Extensions.PagesModel`1.TotalItems">
+            <summary>
+            總共有幾筆資料
+            </summary>
+        </member>
+        <member name="P:Practice.Common.Extensions.PagesModel`1.TotalPages">
+            <summary>
+            總共有幾頁
+            </summary>
+        </member>
+        <member name="P:Practice.Common.Extensions.SortModel.ColName">
+            <summary>
+            欄位名稱: CreateDate / Id / SeqNo
+            </summary>
+        </member>
+        <member name="P:Practice.Common.Extensions.SortModel.Sort">
+            <summary>
+            asc / desc
+            </summary>
+        </member>
+        <member name="P:Practice.Request.DataPageReq.Page">
+            <summary>
+            查詢第幾頁
+            </summary>
+        </member>
+        <member name="P:Practice.Request.DataPageReq.Limit">
+            <summary>
+            每頁幾筆
+            </summary>
+        </member>
+        <member name="P:Practice.Request.DataPageReq.SortModel">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:Practice.Response.DataPageResp`1.CurrentPage">
+            <summary>
+            目前在哪一頁
+            </summary>
+        </member>
+        <member name="P:Practice.Response.DataPageResp`1.TotalItems">
+            <summary>
+            總共有幾筆資料
+            </summary>
+        </member>
+        <member name="P:Practice.Response.DataPageResp`1.TotalPages">
+            <summary>
+            總共有幾頁
+            </summary>
+        </member>
+    </members>
+</doc>
