@@ -12,7 +12,7 @@ namespace Practice.Controllers
         private readonly IBlogService _blogService;
         private readonly PracticeContext _dbContext;
 
-        //test jenkins
+
         public BlogController(IBlogService blogService, PracticeContext dbContext, string xxx)
         {
             this._blogService = blogService;
